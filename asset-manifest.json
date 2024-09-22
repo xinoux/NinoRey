@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/NinoRey/static/css/main.12b23c37.css",
-    "main.js": "/NinoRey/static/js/main.647460f6.js",
+    "main.js": "/NinoRey/static/js/main.aa18cf42.js",
     "static/js/453.b21437c2.chunk.js": "/NinoRey/static/js/453.b21437c2.chunk.js",
     "static/media/logo.svg": "/NinoRey/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/NinoRey/index.html",
     "main.12b23c37.css.map": "/NinoRey/static/css/main.12b23c37.css.map",
-    "main.647460f6.js.map": "/NinoRey/static/js/main.647460f6.js.map",
+    "main.aa18cf42.js.map": "/NinoRey/static/js/main.aa18cf42.js.map",
     "453.b21437c2.chunk.js.map": "/NinoRey/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12b23c37.css",
-    "static/js/main.647460f6.js"
+    "static/js/main.aa18cf42.js"
   ]
 }
