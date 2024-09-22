@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './HomePage/navbar';
-import Introduction from './HomePage/introduction';
-import Skills from './HomePage/skills';
-import Projects from './HomePage/projects';
-import Footer from './HomePage/footer';
-import React, { useRef } from 'react';
+import logo from "./logo.svg";
+import "./App.css";
+import { useEffect } from "react";
+import Navbar from "./HomePage/navbar";
+import Introduction from "./HomePage/introduction";
+import Skills from "./HomePage/skills";
+import Footer from "./HomePage/footer";
+import Title from "./HomePage/components/docuTitle";
+import React, { useRef } from "react";
 
 function App() {
   const skillsRef = useRef(null);
@@ -19,11 +20,15 @@ function App() {
   };
   return (
     <div className="App">
+      <Title title={"Niño Rey Noble"} />;
       <header className="App-header">
-       <Navbar scrollToSkills={scrollToSkills} scrollToFooter={scrollToFooter}/>
-       <Introduction/>
-       <Skills skillsRef={skillsRef}/>
-       <Footer footerRef={footerRef}/>
+        <Navbar
+          scrollToSkills={scrollToSkills}
+          scrollToFooter={scrollToFooter}
+        />
+        <Introduction />
+        <Skills skillsRef={skillsRef} />
+        <Footer footerRef={footerRef} />
       </header>
     </div>
   );
