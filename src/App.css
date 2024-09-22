@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   justify-content: end;
   height: 80px; /* Adjusted height */
-  padding: 0 8%; /* Adjusted padding */
+  margin: 0.2rem 11.2rem 0 0; /* Adjusted padding */
   z-index: 100;
   transition: top 0.3s ease-in-out;
 }
@@ -47,11 +47,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 100px 2% 0 10%; /* Adjusted margins */
+  margin: 100px 2% 0 14%; /* Adjusted margins */
 }
 
 .textContainer {
   max-width: 45%; /* Reduced width */
+  padding: 0 0 0 1.5rem;
 }
 
 .heyThere {
@@ -65,7 +66,7 @@ body {
 }
 .myName span {
   font-family: "Playfair+Display", serif;
-  font-size: 2.5rem; /* Adjusted font size */
+  font-size: 2.3rem; /* Adjusted font size */
   text-transform: uppercase;
   font-weight: 100;
 }
@@ -81,25 +82,25 @@ body {
 .introduction-text {
   color: var(--light);
   font-size: 1.1rem; /* Adjusted font size */
-  margin: 0 0 80px 0; /* Adjusted margin */
+  margin: 0 0 2rem 0; /* Adjusted margin */
 }
 
 .imgContainer {
   position: relative;
-  max-width: 45%; /* Adjusted width */
+  max-width: 35%; /* Adjusted width */
 }
 
 #gradient1 {
-  width: 140%; /* Adjusted width */
+  width: 145%; /* Adjusted width */
   position: absolute;
   top: 0;
-  left: -380px;
+  left: -13.2rem;
   z-index: 1;
 }
 
 #profilePicture {
-  width: 130%; /* Adjusted width */
-  transform: translateX(-40px); /* Adjusted transform */
+  width: 110%; /* Adjusted width */
+  transform: translateX(3rem); /* Adjusted transform */
   position: relative;
   top: 0;
   left: -350px;
@@ -112,8 +113,8 @@ body {
 }
 
 .serviceCard {
-  width: 300px; /* Adjusted width */
-  height: 330px; /* Adjusted height */
+  width: 260px; /* Adjusted width */
+  height: 290px; /* Adjusted height */
   background-color: #1e1e1e;
   display: flex;
   flex-direction: column;

@@ -25,7 +25,7 @@ export default function Footer({ footerRef }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SocialMediaIcon image="linkedIn" />
+              <SocialMediaIcon image="linkedin" />
             </a>
             <a
               href="https://github.com/xinoux"

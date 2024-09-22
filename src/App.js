@@ -20,7 +20,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Title title={"Niño Rey Noble"} />;
+      <Title title={"Niño Rey Noble"} />
       <header className="App-header">
         <Navbar
           scrollToSkills={scrollToSkills}
